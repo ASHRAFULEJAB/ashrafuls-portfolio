@@ -97,7 +97,7 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "Express JS",
     icon: threejs,
   },
   {
@@ -105,13 +105,13 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "Next JS",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -142,13 +142,14 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "React development intern",
+    company_name: "Cehpoint",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
+      "Participating in Api Documenting, code reviews with bug fixing and providing constructive feedback to other running project.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -198,25 +199,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ai-QuizzBot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to make quiz, save quiz, and create quiz from various section like MCQ,Fill in the Blanks, providing a convenient and efficient paltform for making quiz as per user  needs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mongoose",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "NextJs",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ASHRAFULEJAB/aiquizbot-frontend",
+    live_link: "https://ai-quizbot.netlify.app/",
   },
   {
     name: "Job IT",
