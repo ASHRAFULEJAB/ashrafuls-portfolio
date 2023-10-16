@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  dashboard,
+  social,
 } from "../assets";
 
 export const navLinks = [
@@ -173,27 +175,30 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I was mistaken about my assumption that it was impossible to create a website that is as stunning as our goods, thanks to Ashraful Islam.",
+    name: "Mr. Jit",
+    designation: "CEO",
+    company: "CehPoint",
+    image:
+      "https://media.istockphoto.com/id/936278022/photo/executive-senior-businessman-portrait.jpg?s=612x612&w=0&k=20&c=LIfPCNAtOrdL3PnDZRSzNU3myXVtt9shfJerzh4Wwdg=",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "The genuine concern Ashraful Islam has for his clients' success is something I've never encountered in a web developer.",
+    name: "Mr. Pravesh",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Apptechvisa",
+    image:
+      "https://st.depositphotos.com/47153598/58762/i/450/depositphotos_587625506-stock-photo-mature-bearded-ceo-man-businesslike.jpg",
+  },
+  {
+    testimonial:
+      "Ashraful Islam Khan is the most talented and hardworking person I had ever met.I wish him sucess in future and recommend him for any potential job scope!",
+    name: "Jubaer Ibn Zahir",
+    designation: "𝗝𝗼𝗯 𝗣𝗹𝗮𝗰𝗲𝗺𝗲𝗻𝘁 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝘃𝗲 ",
+    company: "𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 𝗛𝗲𝗿𝗼",
+    image:
+      "https://media.licdn.com/dms/image/C5603AQFzsjAF1WKuqA/profile-displayphoto-shrink_400_400/0/1615558876946?e=1703116800&v=beta&t=bEy538YJ6F_qkpQ4zOHciDHNeo6m-dAFE0FbFU-yfpM",
   },
 ];
 
@@ -204,7 +209,7 @@ const projects = [
       "Web-based platform that allows users to make quiz, save quiz, and create quiz from various section like MCQ,Fill in the Blanks, providing a convenient and efficient paltform for making quiz as per user  needs.",
     tags: [
       {
-        name: "react",
+        name: "openAI",
         color: "blue-text-gradient",
       },
       {
@@ -221,46 +226,95 @@ const projects = [
     live_link: "https://ai-quizbot.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Resaling Laptop",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search second hand laptop, view their products on dashboard based on role like admin will see different product,seller and buyer will same, and pay the products , advertise them.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "expressJS",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/ASHRAFULEJAB/Mall-of-Recondiotion-Laptop-Resale-Website-",
+    live_link: "https://recondition-laptops.web.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Doctors Service",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive service providing platform that allows users to provide reviews about doctors service , service, and reviews will be visible based on person, and give recommendations for  popular doctors.",
     tags: [
       {
-        name: "nextjs",
+        name: "firebase",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodeJS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "React Js",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/ASHRAFULEJAB/Cardiologists-Master-Docter-s-Service-Review-",
+    live_link: "https://cardiologist-master.web.app/",
+  },
+  {
+    name: "M-Soko Admin Panel",
+    description:
+      "An enterprize level admin dashboard  that allows admin/users to controll all things like product ,service, and property.By using this site admin ,seller,buyer can manage their sales report,all business info etc.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MaterialUI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dashboard,
+    source_code_link:
+      "https://github.com/cehpoint-official/m-sokon-admin-panel",
+    live_link: "https://sokoniiadmin.netlify.app/dashboard",
+  },
+  {
+    name: "AshBook",
+    description:
+      "A social media platform that allows users to post anything,give like to the post,and delete the post. People also do comment  on persons post, and do search for  popular posts.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanityCMS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "next Js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: social,
+    source_code_link: "https://github.com/ASHRAFULEJAB/AshBook_Typescript",
+    live_link: "https://ash-book-typescript-1mk79.vercel.app/",
   },
 ];
 

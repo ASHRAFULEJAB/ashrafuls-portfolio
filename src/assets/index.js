@@ -30,6 +30,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import live from "./live.png";
+import dashboard from "./dashboard.png";
+import social from "./socailsite.png";
 export {
   logo,
   backend,
@@ -60,4 +62,6 @@ export {
   jobit,
   tripguide,
   live,
+  dashboard,
+  social,
 };
